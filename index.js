@@ -17,6 +17,10 @@ app.use(express.json())
 //   res.setHeader('Access-Control-Allow-Headers','Content-Type , Authorisation')
 // })
 
+app.use(()=>{
+  let arr = {"hello ": "world"}
+})
+
 app.use(cors())
 
 
