@@ -4,3 +4,8 @@ git commit -m"this is commit"
 git log
 git diff
 git remote add origin https://github.com/GouravSehgal7/my-repo.git
+
+git branch "gourav-work"
+git checkout gourav-work
+git branch
+git push --set-upstream origin gourav-work
