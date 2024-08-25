@@ -5,6 +5,8 @@ git log
 git diff
 git remote add origin https://github.com/GouravSehgal7/my-repo.git
 
+branch change method
+
 git branch "gourav-work"
 git checkout gourav-work
 git branch
