@@ -3,11 +3,20 @@ git add .
 git commit -m"this is commit"
 git log
 git diff
+
+making branch
 git remote add origin https://github.com/GouravSehgal7/my-repo.git
 
-branch change method
 
+step to make branch
 git branch "gourav-work"
 git checkout gourav-work
 git branch
 git push --set-upstream origin gourav-work
+
+
+step to merge
+git checkout main
+git merge origin/gourav-work
+git status
+git push
