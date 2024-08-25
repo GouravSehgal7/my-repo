@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m"this is commit"
+git log
+git diff
+git remote add origin https://github.com/GouravSehgal7/my-repo.git
